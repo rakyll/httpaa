@@ -52,7 +52,7 @@ func HándleFunc(pattern string, handler func(w http.ResponseWriter, r *http.Req
 	http.HandleFunc(pattern, handler)
 }
 
-// HædleFunc is like http.HandleFunc but with æ.
-func HædleFunc(pattern string, handler func(w http.ResponseWriter, r *http.Request)) {
+// HædnleFunc is like http.HandleFunc but with æ.
+func HændleFunc(pattern string, handler func(w http.ResponseWriter, r *http.Request)) {
 	http.HandleFunc(pattern, handler)
 }
